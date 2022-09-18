@@ -7,6 +7,7 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
+      - run: echo "gitref is $GITHUB_REF"
       - run: echo "the git ref is ${{ github.ref }}"
       - run: echo "the git ref name is ${{ github.ref_name}}"
       - uses: google-github-actions/release-please-action@v3
