@@ -1,0 +1,15 @@
+on:
+  pull_request:
+    branches:
+      - main
+    types: 
+      - closed
+name: release-please
+jobs:
+  say-hi-when-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        if: ${{ github.event.pull_request.merged }}
+        run: echo "git head ref is ${{ github.head_ref}} and git base ref is {{ github.base_ref }}"
+
