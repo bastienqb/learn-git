@@ -7,6 +7,7 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
+      - run: echo "gitref is $GITHUB_REF"
       - uses: google-github-actions/release-please-action@v3
         with:
           release-type: python
