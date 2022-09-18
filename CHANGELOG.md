@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/bastienqb/learn-git/compare/v0.2.0...v0.3.0) (2022-09-18)
+
+
+### Features
+
+* **learning:** :bookmark: try again ([aed0c90](https://github.com/bastienqb/learn-git/commit/aed0c90589e5f800def1ab5eb545e25a8ba8151f))
+
 ## [0.2.0](https://github.com/bastienqb/learn-git/compare/v0.1.0...v0.2.0) (2022-09-18)
 
 
