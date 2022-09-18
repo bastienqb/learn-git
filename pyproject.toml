@@ -1,0 +1,16 @@
+[project]
+name = "learn_git"
+version = "0.1.0"
+description = "My package description"
+requires-python = ">=3.7"
+keywords = ["one", "two"]
+license = {text = "BSD 3-Clause License"}
+classifiers = [
+    "Framework :: Django",
+    "Programming Language :: Python :: 3",
+]
+
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
