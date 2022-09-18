@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.4.0](https://github.com/bastienqb/learn-git/compare/v0.3.0...v0.4.0) (2022-09-18)
+
+
+### Features
+
+* **learning:** :art: add feature ([3e2e233](https://github.com/bastienqb/learn-git/commit/3e2e233a9115e40ba5d06e95ea4ff444b269a96d))
+
+
+### Bug Fixes
+
+* **learning:** :bug: put if at the correct place ([a99251e](https://github.com/bastienqb/learn-git/commit/a99251e35b3cc2e4f5f326319de75c35893d5aea))
+
 ## [0.3.0](https://github.com/bastienqb/learn-git/compare/v0.2.0...v0.3.0) (2022-09-18)
 
 
