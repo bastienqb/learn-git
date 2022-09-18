@@ -7,7 +7,7 @@ on:
 name: release-on-merge
 jobs:
   say-hi-when-release:
-    if: (github.event.pull_request.merged) && (endsWith(github.head_ref, "release-please-action"))
+    if: (github.event.pull_request.merged) && (endsWith(github.head_ref, 'release-please-action'))
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
