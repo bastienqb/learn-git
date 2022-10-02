@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/bastienqb/learn-git/compare/v0.4.0...v0.5.0) (2022-10-02)
+
+
+### Features
+
+* **learning:** :fire: try new release git ([d64b6cb](https://github.com/bastienqb/learn-git/commit/d64b6cb4550a53fbc9279384d5f7ee62b3d6217f))
+
 ## [0.4.0](https://github.com/bastienqb/learn-git/compare/v0.3.0...v0.4.0) (2022-09-18)
 
 
