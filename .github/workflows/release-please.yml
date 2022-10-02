@@ -11,6 +11,10 @@ jobs:
       - run: echo "the git ref is ${{ github.ref }}"
       - run: echo "the git ref name is ${{ github.ref_name}}"
       - uses: google-github-actions/release-please-action@v3
+        id: release
         with:
           release-type: python
           package-name: release-please-action
+      - name: Coucou
+        if: ${{ steps.release.outputs.release_created }}
+        run: echo "git head ref is ${{ github.head_ref}} and I run"
